@@ -1,4 +1,5 @@
-//ALERTS
+// CHAPTER 1
+// ALERTS
 
 //1)
 // alert("Hello")
@@ -16,6 +17,7 @@
 //5)
 // console.log("Hello... I can run JS through my web browser console");
 
+// CHAPTER 2
 // VARIABLES FOR STRING
 
 //1)
@@ -50,26 +52,32 @@
 // alert("I am trying to learn from the Book" + " " + book);
 
 //8)
-//9)
+// var para = document.getElementById("para")
+// para.innerHTML = "Yah! I can write HTML content through JavaScript"
 
+//9)
+// var design = "\"------------------------♛♜♛------------------------\"";
+// alert(design)
+
+// CHAPTER 3
 // VARIABLES FOR NUMBERS
+
 // 1)
 // var age = 19;
-// alert(age);
+// alert("i am" + age + "years old");
 
 // 2)
-// var visited = 14
+// var visited = 14;
 // alert(`You have visited this website ${visited} times`);
 // alert("You have visited this website" +visited+ "times");
 
-
 // 3)
 // var birthYear = 2005
-// console.log(`My birth year is ${birthYear}`);
+// var para = document.getElementById("para")
+// para.innerHTML = `My Birth Year is ${birthYear} <br> Data type of my declared variable is ${typeof birthYear}`
 
 // 4)
 // var visitorName = "John Doe"
 // var productTitle = "T-shirts(s)"
 // var quantity = 5
 // console.log(`${visitorName} ordered ${quantity} ${productTitle} on XYZ Clothing Store`);
-
